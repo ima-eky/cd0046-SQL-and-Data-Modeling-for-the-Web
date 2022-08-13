@@ -1,0 +1,22 @@
+{% extends 'layouts/main.html' %}
+{% block title %}Fyyur | Venues{% endblock %}
+{% block content %}
+{% for region in dict_of_areas %}
+	<h3>{{ region[0] }}, {{ dict_of_areas[region] }}</h3>
+	{% for area in areas %}
+		{% if area.city ==  region[0] and area.state ==  dict_of_areas[region] %}
+			<ul class="items">
+				<li>
+					<a href="/venues/{{ area.id }}">
+						<i class="fas fa-music"></i>
+						<div class="item">
+							<h5>{{ area.name }}</h5>
+						</div>
+					</a>	
+				</li>
+				</ul>
+			{%endif %}
+	
+	{% endfor %}
+{% endfor %}
+{% endblock %}
