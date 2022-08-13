@@ -5,7 +5,7 @@ Fyyur
 
 Fyyur is a musical venue and artist booking site that facilitates the discovery and bookings of shows between local performing artists and venues. This site lets you list new artists and venues, discover them, and list shows with artists as a venue owner.
 
-Your job is to build out the data models to power the API endpoints for the Fyyur site by connecting to a PostgreSQL database for storing, querying, and creating information about artists and venues on Fyyur.
+Your job is to build out the data models to power the API endpoints for the Fyyur site by connecting to a PostgreSQL database for storing, querying, and creating information about artists and venues on Fyyur.[Here's](https://github.com/ima-eky/cd0046-SQL-and-Data-Modeling-for-the-Web/tree/main/cd0046-SQL-and-Data-Modeling-for-the-Web-master(starter-code)/cd0046-SQL-and-Data-Modeling-for-the-Web-master) the starter-code.The code in this script is nearly completed.
 
 ## Overview
 
